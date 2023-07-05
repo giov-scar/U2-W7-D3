@@ -25,7 +25,7 @@ const getRemoteData = function () {
         <div class="card-body d-flex flex-column justify-content-between">
         <h5 class="card-title">${book.title}</h5>
         <p class="card-text">${book.category}</p>
-        <p class="card-text">€${book.price}</p>
+        <p class="card-text text-end">€${book.price}</p>
         <button class="btn btn-danger mb-3" id='remove'>Scarta</button>
         <a href="#" class="btn btn-primary">Compra Ora</a>
   </div>
